@@ -1,0 +1,48 @@
+ 
+ * {
+    background-color: rgb(242, 223, 223);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+header, footer {
+    background-color: grey;
+}
+
+/* for nav bar */
+.nav {
+    margin-left: auto;
+    align-self: center;
+}
+
+/* for list items */
+.list {
+    list-style: none; /*removes bullets*/
+}
+
+table {
+    border: 10;
+}
+
+/* icon */
+header img {
+    width: 6em;
+    border-radius: 3em;
+    margin-left: auto;
+}
+
+/* For div element */
+.wrapper {
+    display: inline-flex; 
+}
+
+/* For all images */
+.wrapper img {
+    width: 300px; 
+    object-fit: cover; /*keeps quality of image*/
+    margin: 0 5px; /* top then left for margin */
+}
+
+
+/* use dot for classes and hashtag for id */
