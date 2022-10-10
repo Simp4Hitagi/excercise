@@ -18,7 +18,9 @@ header, footer {
 
 /* for list items */
 .list {
+    display: inline-flex; /*Puts items horizontal*/ 
     list-style: none; /*removes bullets*/
+
 }
 
 table {
